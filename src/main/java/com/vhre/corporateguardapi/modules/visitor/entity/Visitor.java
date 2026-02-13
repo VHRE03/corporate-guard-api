@@ -67,7 +67,7 @@ public class Visitor extends BaseEntity {
         if (this == o) return true;
         if (o == this || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
         Visitor visitor = (Visitor) o;
-        return getId()  != null && Objects.equals(getId(), visitor.getId());
+        return getId() != null && Objects.equals(getId(), visitor.getId());
     }
 
     @Override
