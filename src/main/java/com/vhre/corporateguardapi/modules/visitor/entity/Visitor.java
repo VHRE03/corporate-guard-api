@@ -21,7 +21,7 @@ import java.util.Objects;
                 // Indice explicito para busquedas rapidas por docuemento
                 @Index(name = "idx_visitor_doc", columnList = "document_number", unique = true),
                 // Indice compuesto para buscar por nombre completo
-                @Index(name = "idx_vissitor_name", columnList = "last_name, first_name")
+                @Index(name = "idx_visitor_name", columnList = "last_name, first_name")
         }
 )
 @Getter
